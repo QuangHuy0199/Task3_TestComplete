@@ -65,9 +65,6 @@ def cmdPaste():     #edit menu Paste option
 
 def cmdClear():     #edit menu Clear option
     notepad.event_generate("<<Clear>>")
-
-def click(event):     #handling click event
-    notepad.tag_config('Found',background='white',foreground='black')
     
 def cmdTimeDate():     #edit menu Time/Date option
     now = datetime.now()
