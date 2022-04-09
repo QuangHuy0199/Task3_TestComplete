@@ -71,6 +71,9 @@ def cmdPaste():     #edit menu Paste option
 
 def cmdClear():     #edit menu Clear option
     notepad.event_generate("<<Clear>>")
+
+def cmdSelectAll():     #edit menu Select All option
+    notepad.event_generate("<<SelectAll>>")
     
 def cmdTimeDate():     #edit menu Time/Date option
     now = datetime.now()
@@ -107,6 +110,7 @@ editMenu.add_command(label='Copy', command = cmdCopy)
 editMenu.add_command(label='Paste', command = cmdPaste)
 editMenu.add_command(label='Delete', command = cmdClear)
 editMenu.add_separator()
+editMenu.add_command(label='Select All', command = cmdSelectAll)
 editMenu.add_command(label='Time/Date', command = cmdTimeDate)
 
 #help menu
