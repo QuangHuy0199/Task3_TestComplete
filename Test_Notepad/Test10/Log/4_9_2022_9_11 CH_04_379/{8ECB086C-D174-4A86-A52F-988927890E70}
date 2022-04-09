@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="380"/>
+					<Prp name="object bottom" type="I" value="386"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="650"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="431"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.Edit"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3537384259"/>
+					<Prp name="image file name" type="S" value="tcvi749093751124478.png"/>
+					<Prp name="object top" type="I" value="369"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="380"/>
+					<Prp name="object bottom" type="I" value="386"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="650"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="431"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.Edit"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912294907"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="object top" type="I" value="369"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage34_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828971644"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (295, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.Edit&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).UIAObject(&quot;Explorer_Pane&quot;).Window(&quot;FloatNotifySink&quot;, &quot;&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="32"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{DD55BFC5-59D4-4D70-B8E0-B36C02399702}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="44660.8826999884"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 3852."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The application &quot;C:\Study\Python\Python38\dist\Notepad.exe&quot; started."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3536226852"/>
+					<Prp name="image file name" type="S" value="tcvi748987811124467.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912140162"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage28_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828815046"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[6]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="28"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="528"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgOpen.btnOpen"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3533680556"/>
+					<Prp name="image file name" type="S" value="tcvi748772031124436.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="514"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgOpen.btnOpen"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911905903"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828581713"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgOpen.btnOpen&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Open&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Open&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.353287037"/>
+					<Prp name="image file name" type="S" value="tcvi748702651124426.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911769907"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828444676"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'File|[0]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3533333333"/>
+					<Prp name="image file name" type="S" value="tcvi748738431124431.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911808449"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828483333"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'File|[1]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="17"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="240"/>
+					<Prp name="object bottom" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="440"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="238"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="204"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Test1.Name"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3533564815"/>
+					<Prp name="image file name" type="S" value="tcvi748761711124434.png"/>
+					<Prp name="object top" type="I" value="233"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="303"/>
+					<Prp name="object bottom" type="I" value="318"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="440"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="238"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="204"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Test1.Name"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.591188831"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object top" type="I" value="296"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828564352"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (34, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Test1.Name&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Open&quot;, 1).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).UIAObject(&quot;Explorer_Pane&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 3).Window(&quot;SHELLDLL_DefView&quot;, &quot;ShellView&quot;, 1).UIAObject(&quot;Items_View&quot;).UIAObject(&quot;Test1&quot;).UIAObject(&quot;Name&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="19"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-99"/>
+					<Prp name="object bottom" type="I" value="386"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="650"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-56"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3532407407"/>
+					<Prp name="image file name" type="S" value="tcvi748663121124420.png"/>
+					<Prp name="object top" type="I" value="369"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="389"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="133"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911684375"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object top" type="I" value="366"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828364583"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).UIAObject(&quot;Explorer_Pane&quot;).Window(&quot;FloatNotifySink&quot;, &quot;&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'test10.txt' was entered in the combo box editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="11"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="131"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="182"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="129"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="107"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgTimeDate.btnOK"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3536342593"/>
+					<Prp name="image file name" type="S" value="tcvi748998751124469.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="182"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="144"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="107"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgTimeDate.btnOK"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912158681"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage29_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828830787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgTimeDate.btnOK&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Time/Date&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="29"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="60"/>
+					<Prp name="object bottom" type="I" value="690"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="727"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="37"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad.TkChild.TkChild.TkChild"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3530787037"/>
+					<Prp name="image file name" type="S" value="tcvi74852625112442.png"/>
+					<Prp name="object top" type="I" value="46"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="60"/>
+					<Prp name="object bottom" type="I" value="690"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="727"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="37"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad.TkChild.TkChild.TkChild"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911542708"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="46"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828219097"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (34, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Notepad.wndNotepad.TkChild.TkChild.TkChild&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).Window(&quot;TkChild&quot;, &quot;&quot;, 1).Window(&quot;TkChild&quot;, &quot;&quot;, 1).Window(&quot;TkChild&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-99"/>
+					<Prp name="object bottom" type="I" value="386"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="650"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-56"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="136"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3537847222"/>
+					<Prp name="image file name" type="S" value="tcvi749130621124491.png"/>
+					<Prp name="object top" type="I" value="369"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="389"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="133"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912313657"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="object top" type="I" value="366"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage35_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828992245"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).UIAObject(&quot;Explorer_Pane&quot;).Window(&quot;FloatNotifySink&quot;, &quot;&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'Test10.cpp' was entered in the combo box editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="33"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3535416667"/>
+					<Prp name="image file name" type="S" value="tcvi748920931124455.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912065046"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage22_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828739815"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[5]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="25"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3534375"/>
+					<Prp name="image file name" type="S" value="tcvi748834681124443.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911989931"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828664931"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[1]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="22"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3536921296"/>
+					<Prp name="image file name" type="S" value="tcvi749049681124473.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912178819"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage31_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828853819"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'File|[3]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="30"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3531712963"/>
+					<Prp name="image file name" type="S" value="tcvi74860515112446.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.591159838"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828272917"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'File|[2]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="449"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="546"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.btnSave"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3538078704"/>
+					<Prp name="image file name" type="S" value="tcvi749148281124494.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="514"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.btnSave"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912332407"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage36_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.882900787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgSaveAs.btnSave&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Save&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="34"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="128"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="236"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="190"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="161"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgNotepad.btnNo"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3532986111"/>
+					<Prp name="image file name" type="S" value="tcvi748714371124428.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="236"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="198"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="161"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgNotepad.btnNo"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911787847"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828460301"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgNotepad.btnNo&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Notepad&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;No&quot;, 2))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="16"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3534953704"/>
+					<Prp name="image file name" type="S" value="tcvi748886251124451.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912039931"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828714815"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[2]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="24"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.353587963"/>
+					<Prp name="image file name" type="S" value="tcvi748957181124463.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912115162"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage26_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828790162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[2]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="27"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3535648148"/>
+					<Prp name="image file name" type="S" value="tcvi748938901124459.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912090162"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage24_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828764931"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[3]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="26"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3534722222"/>
+					<Prp name="image file name" type="S" value="tcvi748861561124447.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912015046"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828691667"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[2]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="23"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3534143519"/>
+					<Prp name="image file name" type="S" value="tcvi748810781124439.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911966667"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828641551"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Edit|[5]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="21"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3538773148"/>
+					<Prp name="image file name" type="S" value="tcvi749208591124498.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="693"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="747"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912394792"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="object top" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage38_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8829069676"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'File|[5]' was clicked."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="35"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="448"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="519"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.btnSave"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3532638889"/>
+					<Prp name="image file name" type="S" value="tcvi748683431124423.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="object bottom" type="I" value="460"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="514"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.btnSave"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911704745"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object top" type="I" value="434"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828381019"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgSaveAs.btnSave&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Save&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="13"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="152"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="111"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="77"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgNotepad.btnYes"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3538888889"/>
+					<Prp name="image file name" type="S" value="tcvi7492248411244100.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="152"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="114"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="77"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgNotepad.btnYes"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912413079"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="object top" type="I" value="114"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage39_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8829085185"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgNotepad.btnYes&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Notepad&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;Yes&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="36"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-99"/>
+					<Prp name="object bottom" type="I" value="414"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-56"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="133"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink2.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3537268518"/>
+					<Prp name="image file name" type="S" value="tcvi749085931124477.png"/>
+					<Prp name="object top" type="I" value="391"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="414"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="133"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink2.ComboBox"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5912269329"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="object top" type="I" value="391"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage33_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828950926"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Notepad.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink2.ComboBox&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;#32770&quot;, &quot;Save As&quot;, 1).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).UIAObject(&quot;Explorer_Pane&quot;).Window(&quot;FloatNotifySink&quot;, &quot;&quot;, 3).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'All files' was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-53"/>
+					<Prp name="object bottom" type="I" value="690"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="744"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-53"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad.TkChild"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.3531018519"/>
+					<Prp name="image file name" type="S" value="tcvi74853640112443.png"/>
+					<Prp name="object top" type="I" value="46"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="690"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="744"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="3"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.Notepad.wndNotepad.TkChild"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="44660.5911560069"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="46"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44660.8828248148"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'Nguyen Van D' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Notepad.wndNotepad.TkChild&#xA;(Sys.Process(&quot;Notepad&quot;, 2).Window(&quot;TkTopLevel&quot;, &quot;Notepad&quot;, 1).Window(&quot;TkChild&quot;, &quot;&quot;, 1))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{74FC4D7E-E555-483F-BA3A-4E17544B59F9}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44660.3436574074" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi7403800060402.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44660.3436805556" objectName="Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Test1.Name" objectLeft="206" objectTop="237" objectRight="230" objectBottom="248" clickPointX="226" clickPointY="243" imageFileName="tcvi7403987560406.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44660.3436805556" objectName="Aliases.Notepad.dlgOpen.btnOpen" objectLeft="470" objectTop="434" objectRight="558" objectBottom="460" clickPointX="504" clickPointY="446" imageFileName="tcvi7404059360408.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44660.3437268519" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi74044484604011.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="44660.3437615741" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi74047265604015.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

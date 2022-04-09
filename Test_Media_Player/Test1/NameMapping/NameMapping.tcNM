@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{827A4BA4-AAAB-4418-B25A-65BC35FA8E7D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="wmplayer" Key="{6594589D-39C3-49D6-BD69-514B0E430728}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="wmplayer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWMPlayerApp" Key="{9EA06730-D659-408B-AAC6-784AA63D1095}">
+								<Image FileName="-2136874988" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMPlayerApp" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WMPAppHost" Key="{E0E20594-6FA6-4811-827C-07BDA552819D}">
+										<Image FileName="-2136874988" Left="0" Top="23" Right="1366" Bottom="728" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WMPAppHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="WMPAppHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WMPSkinHost" Key="{94FC4B40-0DE6-482C-8815-99951941DB1D}">
+												<Image FileName="-2136874988" Left="0" Top="59" Right="1366" Bottom="660" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="WMP Skin Host" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="LibraryContainer" Key="{0D060578-F30F-4C07-A8D2-52A1585C0F7C}">
+														<Image FileName="-2136874988" Left="0" Top="59" Right="1366" Bottom="660" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ATL:*" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="LibraryContainer" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TreeView" Key="{BC418FD4-9704-434B-97A6-90344093A33B}">
+																<Image FileName="-2136874988" Left="0" Top="91" Right="150" Bottom="660" />
+																<TypeInfo Item0="{B0366EB0-2C70-4141-B4C4-F073F7D9EE43}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysTreeView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Library Treeview" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="lvNg_nChiTi_t" Key="{6B434D0A-27B7-496D-B2F8-BDF7F7D40945}">
+																<Image FileName="-1322495450" Left="153" Top="91" Right="1103" Bottom="660" />
+																<TypeInfo Item0="{CA4D624F-CAB3-4DEB-9E03-8C4CC7FC453D}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="PrimaryListView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Edit" Key="{B5E2CF67-1339-4446-989E-54485BDD8D46}">
+																		<Image FileName="681793053" Left="211" Top="265" Right="265" Bottom="284" />
+																		<TypeInfo Item0="{AA340B36-9E4E-4666-97F4-CFA890E74CF4}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Edit" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="T5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="BasketListView" Key="{F501FEB4-8541-4E47-BA9C-8673B38CFCBD}">
+																<TypeInfo Item0="{CA4D624F-CAB3-4DEB-9E03-8C4CC7FC453D}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="BasketListView" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndWMPSkinHost" Key="{9D2C232E-04A4-4022-8A79-F30E36483173}">
+								<Image FileName="-764837506" Left="0" Top="0" Right="1000" Bottom="69" />
+								<TypeInfo Item0="{80E298D4-4BCC-42BC-B068-CB38EABF7979}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndFullScreenBottomLayout" Key="{85BD84D5-82A4-4220-8CBA-7BD8C5AE3B80}">
+								<Image FileName="2075227084" Left="0" Top="0" Right="1366" Bottom="69" />
+								<TypeInfo Item0="{80E298D4-4BCC-42BC-B068-CB38EABF7979}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CWmpControlCntr" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="FullScreenBottomLayout" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgProperties" Key="{267611BC-7656-45F8-A20A-BDF1A979D56D}">
+								<Image FileName="1257267844" Left="0" Top="0" Right="476" Bottom="526" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Properties" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tbcProperties" Key="{B84813B1-CFFB-4EE4-A765-CE46A83F77F2}">
+										<Image FileName="1257267844" Left="14" Top="38" Right="462" Bottom="482" />
+										<TypeInfo Item0="{55CA26D2-53D1-45A1-B1BA-45B31A6494A1}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysTabControl32" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{C77B27BD-B40F-4F90-B4C4-95DD45CC639A}">
+										<Image FileName="-1220887475" Left="225" Top="488" Right="300" Bottom="511" />
+										<TypeInfo Item0="{50DFDFB5-B99F-445D-8216-F0C8D38BCCD9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wnd32768" Key="{9851A91C-D743-4B73-8480-775AFA48BE52}">
+								<Image FileName="-530979227" Left="0" Top="0" Right="184" Bottom="254" />
+								<TypeInfo Item0="{80E298D4-4BCC-42BC-B068-CB38EABF7979}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32768" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{BCF56D62-43F3-44F2-BE59-5AC5AAD988A4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{38C615A7-DA5C-4DDC-B369-C6C157A95049}">
+								<Image FileName="-460615496" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TrayNotifyWnd" Key="{2AE773AE-3BC2-496D-ABD7-9187C57D5A84}">
+										<Image FileName="-460615496" Left="1111" Top="0" Right="1366" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TrayNotifyWnd" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="SysPager" Key="{61B30E2F-8272-49E1-ACFB-ED894C06FA91}">
+												<Image FileName="-460615496" Left="1135" Top="0" Right="1207" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysPager" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="systemTray" Key="{DBBA62AA-4FB9-4F97-847C-C204C7892D17}">
+														<Image FileName="-460615496" Left="1135" Top="0" Right="1207" Bottom="40" />
+														<TypeInfo Item0="{50118596-4957-46A7-A253-C2794947FCF0}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ToolbarWindow32" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndPictures" Key="{8B36651E-3177-48ED-8181-A372A6C51227}">
+								<Image FileName="1737895696" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{75082933-6019-4213-8A47-AAC0610B3097}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Pictures" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndTest" Key="{5E04235E-6EF9-4906-9DD3-3912B8968101}">
+								<Image FileName="990791347" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{75082933-6019-4213-8A47-AAC0610B3097}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Test" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Microsoft_Windows_ShellExperienceHost" Key="{7F2061B9-37B1-47F1-990E-3D9147127A2A}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Microsoft.Windows.ShellExperienceHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWindowsUICoreCoreWindow" Key="{5D771076-B89A-49B0-AFCF-69E86D7492E6}">
+								<Image FileName="-188495395" Left="0" Top="0" Right="360" Bottom="100" />
+								<TypeInfo Item0="{80E298D4-4BCC-42BC-B068-CB38EABF7979}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Điều khiển Âm lượng" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="WINWORD" Key="{D7F25E95-4C82-4DFE-AA49-1CA78051E2C2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="WINWORD" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formSupportBI3WordProductActivat" Key="{D0C3E0C0-30D1-4FBE-B0DB-8D1B47BD6B8B}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="OpusApp" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelMsodocktop" Key="{ADA457C0-D180-4FA6-8C7C-B0F595E51F45}">
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="MsoDockTop" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbarRibbon" Key="{096C5809-11DB-42CE-946B-3F7B16FC7809}">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="ToolBar" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Ribbon" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{564C64C8-DA97-4891-B9F1-21E273D7B8E3}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MsoWorkPane" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ribbon" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{E9CBF3C1-2E37-4C2F-B0CA-DBEBC7CDC74B}">
+																<TypeInfo Item0="{0D09358B-5C5D-4032-9A7E-AD0E17FED33D}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{62AC1642-C8E5-4C06-AE54-19C8EFE9EEAF}">
+																		<Image FileName="1226423372" Left="0" Top="-1" Right="1366" Bottom="150" />
+																		<TypeInfo Item0="{0D09358B-5C5D-4032-9A7E-AD0E17FED33D}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NetUIHWND" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="wmplayer" Owner="{6594589D-39C3-49D6-BD69-514B0E430728}">
+			<Child Name="wndWMPlayerApp" Owner="{9EA06730-D659-408B-AAC6-784AA63D1095}">
+				<Child Name="WMPAppHost" Owner="{E0E20594-6FA6-4811-827C-07BDA552819D}">
+					<Child Name="WMPSkinHost" Owner="{94FC4B40-0DE6-482C-8815-99951941DB1D}">
+						<Child Name="LibraryContainer" Owner="{0D060578-F30F-4C07-A8D2-52A1585C0F7C}">
+							<Child Name="TreeView" Owner="{BC418FD4-9704-434B-97A6-90344093A33B}" />
+							<Child Name="lvNg_nChiTi_t" Owner="{6B434D0A-27B7-496D-B2F8-BDF7F7D40945}">
+								<Child Name="Edit" Owner="{B5E2CF67-1339-4446-989E-54485BDD8D46}" />
+							</Child>
+							<Child Name="BasketListView" Owner="{F501FEB4-8541-4E47-BA9C-8673B38CFCBD}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndWMPSkinHost" Owner="{9D2C232E-04A4-4022-8A79-F30E36483173}" />
+			<Child Name="wndFullScreenBottomLayout" Owner="{85BD84D5-82A4-4220-8CBA-7BD8C5AE3B80}" />
+			<Child Name="dlgProperties" Owner="{267611BC-7656-45F8-A20A-BDF1A979D56D}">
+				<Child Name="tbcProperties" Owner="{B84813B1-CFFB-4EE4-A765-CE46A83F77F2}" />
+				<Child Name="btnOK" Owner="{C77B27BD-B40F-4F90-B4C4-95DD45CC639A}" />
+			</Child>
+			<Child Name="wnd32768" Owner="{9851A91C-D743-4B73-8480-775AFA48BE52}" />
+		</Child>
+		<Child Name="explorer" Owner="{BCF56D62-43F3-44F2-BE59-5AC5AAD988A4}">
+			<Child Name="wndShell_TrayWnd" Owner="{38C615A7-DA5C-4DDC-B369-C6C157A95049}">
+				<Child Name="TrayNotifyWnd" Owner="{2AE773AE-3BC2-496D-ABD7-9187C57D5A84}">
+					<Child Name="SysPager" Owner="{61B30E2F-8272-49E1-ACFB-ED894C06FA91}">
+						<Child Name="systemTray" Owner="{DBBA62AA-4FB9-4F97-847C-C204C7892D17}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndPictures" Owner="{8B36651E-3177-48ED-8181-A372A6C51227}" />
+			<Child Name="wndTest" Owner="{5E04235E-6EF9-4906-9DD3-3912B8968101}" />
+		</Child>
+		<Child Name="Microsoft_Windows_ShellExperienceHost" Owner="{7F2061B9-37B1-47F1-990E-3D9147127A2A}">
+			<Child Name="wndWindowsUICoreCoreWindow" Owner="{5D771076-B89A-49B0-AFCF-69E86D7492E6}" />
+		</Child>
+		<Child Name="WINWORD" Owner="{D7F25E95-4C82-4DFE-AA49-1CA78051E2C2}">
+			<Child Name="formSupportBI3WordProductActivat" Owner="{D0C3E0C0-30D1-4FBE-B0DB-8D1B47BD6B8B}">
+				<Child Name="panelMsodocktop" Owner="{ADA457C0-D180-4FA6-8C7C-B0F595E51F45}">
+					<Child Name="toolbarRibbon" Owner="{096C5809-11DB-42CE-946B-3F7B16FC7809}">
+						<Child Name="Ribbon" Owner="{564C64C8-DA97-4891-B9F1-21E273D7B8E3}">
+							<Child Name="NUIPane" Owner="{E9CBF3C1-2E37-4C2F-B0CA-DBEBC7CDC74B}">
+								<Child Name="NetUIHWND" Owner="{62AC1642-C8E5-4C06-AE54-19C8EFE9EEAF}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

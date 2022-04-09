@@ -1,0 +1,5 @@
+Nguyễn Văn A
+MSSV: 123
+Lớp: 456
+GPA: 3.2
+SĐT: 00008888

@@ -1,0 +1,11 @@
+﻿def Test1():
+  TestedApps.Notepad.Run()
+  notepad = Aliases.Notepad
+  wndNotepad = notepad.wndNotepad
+  tkChild = wndNotepad.TkChild
+  tkChild.TkChild.TkChild.Click(338, 43)
+  tkChild.Keys("Nguyee[BS]n Vaw[BS]n A[Enter]MSSV: 123[Enter]Low[BS]ơs[BS]ớp: 456[Enter]GPA: 3.2[Enter]SS![BS]DD[BS]ĐT: 00008888")
+  wndNotepad.MainMenu.Click("File|[2]")
+  dlgSaveAs = notepad.dlgSaveAs
+  dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.SetText("Test1.txt")
+  dlgSaveAs.btnSave.ClickButton()

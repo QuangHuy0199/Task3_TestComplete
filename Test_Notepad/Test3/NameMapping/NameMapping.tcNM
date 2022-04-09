@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{EF4675D5-1D63-4D6D-9C8B-50619A71AD22}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Notepad" Key="{585AD66D-158E-4D8A-B01D-4882360485CC}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{7924D0BC-F499-48B5-B858-8A874BEC2981}">
+								<Image FileName="-1633548955" Left="0" Top="0" Right="747" Bottom="693" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TkChild" Key="{44DB7234-FCD5-46BD-A320-EAEA75C72D15}">
+										<Image FileName="-1633548955" Left="3" Top="46" Right="744" Bottom="690" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TkChild" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TkChild" Key="{20A5F7ED-C844-4A11-BA64-8132AF20A425}">
+												<Image FileName="-1633548955" Left="3" Top="46" Right="744" Bottom="690" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TkChild" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TkChild" Key="{F19CC95C-9F09-4128-8B32-4445501C0923}">
+														<Image FileName="-1633548955" Left="3" Top="46" Right="727" Bottom="690" />
+														<TypeInfo Item0="{4DE478CD-7BC4-40E7-9699-DA3A45101109}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TkChild" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgNotepad" Key="{CD734A1C-2E17-4EDE-8A81-21D5FCC11AC9}">
+								<Image FileName="-753928994" Left="0" Top="0" Right="254" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNo" Key="{272E1799-B8FB-46B5-9BED-02812C153D4E}">
+										<Image FileName="-753928994" Left="161" Top="114" Right="236" Bottom="137" />
+										<TypeInfo Item0="{4C62DA71-632D-40F1-B169-021A4AAAC778}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Notepad" Owner="{585AD66D-158E-4D8A-B01D-4882360485CC}">
+			<Child Name="wndNotepad" Owner="{7924D0BC-F499-48B5-B858-8A874BEC2981}">
+				<Child Name="TkChild" Owner="{44DB7234-FCD5-46BD-A320-EAEA75C72D15}">
+					<Child Name="TkChild" Owner="{20A5F7ED-C844-4A11-BA64-8132AF20A425}">
+						<Child Name="TkChild" Owner="{F19CC95C-9F09-4128-8B32-4445501C0923}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgNotepad" Owner="{CD734A1C-2E17-4EDE-8A81-21D5FCC11AC9}">
+				<Child Name="btnNo" Owner="{272E1799-B8FB-46B5-9BED-02812C153D4E}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{9F6C9E9E-B9D1-47DB-88D4-C767A45A2DAC}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="wmplayer" Key="{94F8F013-9C36-4537-BF07-660B90BF0A7D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="wmplayer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWMPlayerApp" Key="{8CFD76DF-17E2-47AE-BDC7-028DA86D5937}">
+								<Image FileName="446869072" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMPlayerApp" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WMPAppHost" Key="{6780804B-0BC4-4936-855B-5E88D4B6AD91}">
+										<Image FileName="446869072" Left="0" Top="23" Right="1366" Bottom="728" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WMPAppHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="WMPAppHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WMPSkinHost" Key="{AE51E5A2-29D2-4935-8C12-79C10B4448D9}">
+												<Image FileName="446869072" Left="0" Top="59" Right="1366" Bottom="660" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="WMP Skin Host" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="LibraryContainer" Key="{A63604BC-E3FE-4FFF-8B7F-088112C5CB8F}">
+														<Image FileName="446869072" Left="0" Top="59" Right="1366" Bottom="660" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ATL:*" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="LibraryContainer" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="tvLibraryNavigationPane" Key="{D8116BAC-B696-40EC-8FFA-15CE0BFE49CE}">
+																<Image FileName="446869072" Left="0" Top="91" Right="150" Bottom="660" />
+																<TypeInfo Item0="{58AC9423-B61C-4EB9-AE4B-384686C96B75}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysTreeView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Library Treeview" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="lvDetailsPane" Key="{749F90F2-D4EA-4A96-8243-BFDB62D3F39B}">
+																<Image FileName="-454632443" Left="153" Top="115" Right="1103" Bottom="660" />
+																<TypeInfo Item0="{20D7B3CD-386F-4A9C-8B14-D565AABEFB45}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="PrimaryListView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Edit" Key="{38EB2D2A-8712-4AA9-8450-22F6C6BD1F7A}">
+																		<Image FileName="-994476647" Left="210" Top="265" Right="264" Bottom="284" />
+																		<TypeInfo Item0="{95187741-0900-421F-BC93-720D0261A980}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Edit" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="Tét3" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="Edit2" Key="{4DC2B96A-8BB3-4318-8D33-A38C12947A45}">
+																		<Image FileName="1041234144" Left="211" Top="265" Right="265" Bottom="284" />
+																		<TypeInfo Item0="{95187741-0900-421F-BC93-720D0261A980}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="Edit" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="T3" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndWMPSkinHost" Key="{18FD9AB8-715E-49ED-A49F-896E479483A7}">
+								<Image FileName="-651442038" Left="0" Top="0" Right="1000" Bottom="69" />
+								<TypeInfo Item0="{BC0E0B31-41F9-48E7-873C-EE3F5B71EDF2}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndWMPSkinHost2" Key="{5A8BB2CB-DBC8-4EB5-B85F-500FE098778F}">
+								<Image FileName="527182240" Left="0" Top="0" Right="1016" Bottom="706" />
+								<TypeInfo Item0="{C1C4C3FD-C504-49C8-A0E7-71DDA26BAFEB}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WMPPluginUIHost" Key="{12F67261-DC28-4871-BF3A-AD042E752C5D}">
+										<Image FileName="2054538657" Left="8" Top="31" Right="1008" Bottom="698" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WMP Plugin UI Host" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CWmpControlCntr" Key="{C94E8D0C-20C8-4E1F-98F0-579A23EF6D1E}">
+												<Image FileName="2054538657" Left="8" Top="31" Right="1008" Bottom="698" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CWmpControlCntr" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="WMPPluginUIHost" Key="{FDA08323-76BB-4DCE-92F5-505E6A1B662E}">
+														<Image FileName="2054538657" Left="8" Top="31" Right="1008" Bottom="698" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="WMP Plugin UI Host" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CWmpControlCntr" Key="{DD18BD52-D4B1-4C25-BB1F-4F9A10C506EE}">
+																<Image FileName="2054538657" Left="8" Top="31" Right="1008" Bottom="698" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CWmpControlCntr" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="EVRVideoHandler" Key="{91B2A252-FB08-4F24-93DC-ACC3E4FB3B13}">
+																		<Image FileName="2054538657" Left="8" Top="31" Right="1008" Bottom="698" />
+																		<TypeInfo Item0="{DEB0332D-E9A5-4AC2-8244-7349FDB198F3}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="EVRVideoHandler" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="EVRVideoHandler" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndFullScreenBottomLayout" Key="{9ABE5F47-8D46-41E1-9B8A-D0AF858EEDEA}">
+								<Image FileName="-1001191679" Left="0" Top="0" Right="1366" Bottom="69" />
+								<TypeInfo Item0="{BC0E0B31-41F9-48E7-873C-EE3F5B71EDF2}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CWmpControlCntr" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="FullScreenBottomLayout" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgProperties" Key="{F8A36293-021C-4F97-8A46-381742AB21C7}">
+								<Image FileName="-1767377166" Left="0" Top="0" Right="476" Bottom="526" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Properties" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="tbcProperties" Key="{7B29BB3C-C744-47EB-8BA2-D900F4F3946D}">
+										<Image FileName="-1767377166" Left="14" Top="38" Right="462" Bottom="482" />
+										<TypeInfo Item0="{2EFA0AA1-D93F-40C1-8A0B-6336CF9AB144}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysTabControl32" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{D83705D3-C92E-454A-8100-3CE587800803}">
+										<Image FileName="-1220887475" Left="225" Top="488" Right="300" Bottom="511" />
+										<TypeInfo Item0="{3267B264-1E69-458D-B234-F2870893B85C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndFullScreenTopLayout" Key="{3DCF994C-19E5-47D6-980F-65D7AC1A25FC}">
+								<Image FileName="1058164713" Left="0" Top="0" Right="1366" Bottom="31" />
+								<TypeInfo Item0="{BC0E0B31-41F9-48E7-873C-EE3F5B71EDF2}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CWmpControlCntr" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="FullScreenTopLayout" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{9E11F76F-FE90-4884-A25D-0CE26E622287}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndPictures" Key="{EB4E222B-B770-43D1-A333-B2BC9BD5608E}">
+								<Image FileName="-1666750081" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{C1C4C3FD-C504-49C8-A0E7-71DDA26BAFEB}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Pictures" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{0D6786FD-1C79-433B-A386-76687F53C9C0}">
+								<Image FileName="-2061873856" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{D5D98B7D-345B-4250-BA0D-77F1AB045B2D}">
+										<Image FileName="-2061873856" Left="142" Top="0" Right="1111" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{FF2419E6-F693-4690-A085-677551211092}">
+												<Image FileName="-2061873856" Left="144" Top="0" Right="1111" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{0FF2EAD6-78E8-4A79-A988-78978A251252}">
+														<Image FileName="-2061873856" Left="144" Top="0" Right="1111" Bottom="40" />
+														<TypeInfo Item0="{DEB0332D-E9A5-4AC2-8244-7349FDB198F3}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="wmplayer" Owner="{94F8F013-9C36-4537-BF07-660B90BF0A7D}">
+			<Child Name="wndWMPlayerApp" Owner="{8CFD76DF-17E2-47AE-BDC7-028DA86D5937}">
+				<Child Name="WMPAppHost" Owner="{6780804B-0BC4-4936-855B-5E88D4B6AD91}">
+					<Child Name="WMPSkinHost" Owner="{AE51E5A2-29D2-4935-8C12-79C10B4448D9}">
+						<Child Name="LibraryContainer" Owner="{A63604BC-E3FE-4FFF-8B7F-088112C5CB8F}">
+							<Child Name="tvLibraryNavigationPane" Owner="{D8116BAC-B696-40EC-8FFA-15CE0BFE49CE}" />
+							<Child Name="lvDetailsPane" Owner="{749F90F2-D4EA-4A96-8243-BFDB62D3F39B}">
+								<Child Name="Edit" Owner="{38EB2D2A-8712-4AA9-8450-22F6C6BD1F7A}" />
+								<Child Name="Edit2" Owner="{4DC2B96A-8BB3-4318-8D33-A38C12947A45}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndWMPSkinHost" Owner="{18FD9AB8-715E-49ED-A49F-896E479483A7}" />
+			<Child Name="wndWMPSkinHost2" Owner="{5A8BB2CB-DBC8-4EB5-B85F-500FE098778F}">
+				<Child Name="WMPPluginUIHost" Owner="{12F67261-DC28-4871-BF3A-AD042E752C5D}">
+					<Child Name="CWmpControlCntr" Owner="{C94E8D0C-20C8-4E1F-98F0-579A23EF6D1E}">
+						<Child Name="WMPPluginUIHost" Owner="{FDA08323-76BB-4DCE-92F5-505E6A1B662E}">
+							<Child Name="CWmpControlCntr" Owner="{DD18BD52-D4B1-4C25-BB1F-4F9A10C506EE}">
+								<Child Name="EVRVideoHandler" Owner="{91B2A252-FB08-4F24-93DC-ACC3E4FB3B13}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndFullScreenBottomLayout" Owner="{9ABE5F47-8D46-41E1-9B8A-D0AF858EEDEA}" />
+			<Child Name="dlgProperties" Owner="{F8A36293-021C-4F97-8A46-381742AB21C7}">
+				<Child Name="tbcProperties" Owner="{7B29BB3C-C744-47EB-8BA2-D900F4F3946D}" />
+				<Child Name="btnOK" Owner="{D83705D3-C92E-454A-8100-3CE587800803}" />
+			</Child>
+			<Child Name="wndFullScreenTopLayout" Owner="{3DCF994C-19E5-47D6-980F-65D7AC1A25FC}" />
+		</Child>
+		<Child Name="explorer" Owner="{9E11F76F-FE90-4884-A25D-0CE26E622287}">
+			<Child Name="wndPictures" Owner="{EB4E222B-B770-43D1-A333-B2BC9BD5608E}" />
+			<Child Name="wndShell_TrayWnd" Owner="{0D6786FD-1C79-433B-A386-76687F53C9C0}">
+				<Child Name="ReBarWindow32" Owner="{D5D98B7D-345B-4250-BA0D-77F1AB045B2D}">
+					<Child Name="MSTaskSwWClass" Owner="{FF2419E6-F693-4690-A085-677551211092}">
+						<Child Name="MSTaskListWClass" Owner="{0FF2EAD6-78E8-4A79-A988-78978A251252}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

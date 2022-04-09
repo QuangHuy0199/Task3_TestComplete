@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F9213319-0249-4CB1-896F-DC8644034443}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44660.3397800926" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi73703531130162.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44660.3398148148" objectName="Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Test1.Name" objectLeft="204" objectTop="233" objectRight="440" objectBottom="255" clickPointX="234" clickPointY="248" imageFileName="tcvi73706515130165.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44660.3398263889" objectName="Aliases.Notepad.dlgOpen.btnOpen" objectLeft="470" objectTop="434" objectRight="558" objectBottom="460" clickPointX="493" clickPointY="449" imageFileName="tcvi73707687130167.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44660.3398842593" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi737122181301610.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="44660.3399074074" objectName="Aliases.Notepad.dlgNotepad.btnYes" objectLeft="77" objectTop="114" objectRight="152" objectBottom="137" clickPointX="110" clickPointY="125" imageFileName="tcvi737140001301612.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

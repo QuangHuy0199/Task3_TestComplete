@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{3242C81F-82B4-46A2-BAD7-8154CA8F2E21}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="wmplayer" Key="{EA17097A-1A7A-4624-A167-EBC79E369E10}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="wmplayer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWMPlayerApp" Key="{3ACFB357-46EA-4E0A-97F0-746BB03C2C39}">
+								<Image FileName="-613656357" Left="0" Top="0" Right="1092" Bottom="614" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMPlayerApp" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WMPAppHost" Key="{CD817CA6-66FB-4ECF-BF1E-44EFC3273F46}">
+										<Image FileName="-613656357" Left="8" Top="31" Right="1084" Bottom="606" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WMPAppHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="WMPAppHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="WMPSkinHost" Key="{6E8FB290-084A-4A43-AD19-B067B51889EE}">
+												<Image FileName="-613656357" Left="8" Top="67" Right="1084" Bottom="538" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="WMP Skin Host" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="LibraryContainer" Key="{2AFC3368-8CDB-4809-9BE7-4F868FA257DD}">
+														<Image FileName="-613656357" Left="8" Top="67" Right="1084" Bottom="538" />
+														<TypeInfo Item0="{A79151BF-D492-46D6-B2EC-063FC9AE56DD}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ATL:*" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="LibraryContainer" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="editSearchEditBox" Key="{CAA61498-5A69-4B04-B064-E036DCE5CBA3}">
+																<Image FileName="-613656357" Left="555" Top="76" Right="753" Bottom="92" />
+																<TypeInfo Item0="{7B946581-E4E3-4672-BFFE-6594154F1CA8}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="Edit" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="lvDetailsPane" Key="{C6A165A0-19C7-4A89-8BBB-43DFB34D16F9}">
+																<Image FileName="411989068" Left="161" Top="99" Right="821" Bottom="538" />
+																<TypeInfo Item0="{0BAB41DE-10AA-485E-8054-70352EEA6386}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysListView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="PrimaryListView" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="tvLibraryNavigationPane" Key="{94E9FAAA-FF66-4B7D-9928-5C2DF1C27FDE}">
+																<Image FileName="-26578805" Left="8" Top="99" Right="158" Bottom="538" />
+																<TypeInfo Item0="{B2F67BC9-A823-40CD-BB36-AFDF1CA21B8A}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SysTreeView32" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Library Treeview" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndWMPSkinHost" Key="{B51CE2D1-3C0D-4CC3-9017-BEFCE15B9DEB}">
+								<Image FileName="273684648" Left="0" Top="0" Right="1350" Bottom="55" />
+								<TypeInfo Item0="{AA833714-CA9B-4A17-984D-8BB8929A9E6E}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndWMPSkinHost2" Key="{A200919B-0A75-4EAD-9A95-921B3FA775B5}">
+								<Image FileName="-1211495220" Left="0" Top="0" Right="1366" Bottom="728" />
+								<TypeInfo Item0="{4FDB1B49-E83A-45A7-8FE9-4151C0251586}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="4" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndWMPSkinHost3" Key="{3823D880-9D86-4818-AE56-00E72F4C2B77}">
+								<Image FileName="-891460481" Left="0" Top="0" Right="1000" Bottom="55" />
+								<TypeInfo Item0="{AA833714-CA9B-4A17-984D-8BB8929A9E6E}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="WMP Skin Host" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Windows Media Player" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="3" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="wmplayer" Owner="{EA17097A-1A7A-4624-A167-EBC79E369E10}">
+			<Child Name="wndWMPlayerApp" Owner="{3ACFB357-46EA-4E0A-97F0-746BB03C2C39}">
+				<Child Name="WMPAppHost" Owner="{CD817CA6-66FB-4ECF-BF1E-44EFC3273F46}">
+					<Child Name="WMPSkinHost" Owner="{6E8FB290-084A-4A43-AD19-B067B51889EE}">
+						<Child Name="LibraryContainer" Owner="{2AFC3368-8CDB-4809-9BE7-4F868FA257DD}">
+							<Child Name="editSearchEditBox" Owner="{CAA61498-5A69-4B04-B064-E036DCE5CBA3}" />
+							<Child Name="lvDetailsPane" Owner="{C6A165A0-19C7-4A89-8BBB-43DFB34D16F9}" />
+							<Child Name="tvLibraryNavigationPane" Owner="{94E9FAAA-FF66-4B7D-9928-5C2DF1C27FDE}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndWMPSkinHost" Owner="{B51CE2D1-3C0D-4CC3-9017-BEFCE15B9DEB}" />
+			<Child Name="wndWMPSkinHost2" Owner="{A200919B-0A75-4EAD-9A95-921B3FA775B5}" />
+			<Child Name="wndWMPSkinHost3" Owner="{3823D880-9D86-4818-AE56-00E72F4C2B77}" />
+		</Child>
+	</LogicalNodes>
+</Root>

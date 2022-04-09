@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5D0D7E3F-1092-4AF0-BA79-96893F1DE3D4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44660.3405671296" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi7377153192802.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44660.3405902778" objectName="Aliases.Notepad.dlgOpen.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.adhoc_2.UIImage" objectLeft="186" objectTop="149" objectRight="204" objectBottom="171" clickPointX="202" clickPointY="161" imageFileName="tcvi7377315692805.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44660.3406018519" objectName="Aliases.Notepad.dlgOpen.btnOpen" objectLeft="470" objectTop="434" objectRight="558" objectBottom="460" clickPointX="483" clickPointY="449" imageFileName="tcvi7377404692807.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44660.3406481482" objectName="Aliases.Notepad.wndNotepad.TkChild.TkChild.TkChild" objectLeft="3" objectTop="46" objectRight="727" objectBottom="690" clickPointX="182" clickPointY="313" imageFileName="tcvi73778593928010.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="44660.3406828704" objectName="Aliases.Notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="747" objectBottom="693" clickPointX="-131" clickPointY="-76" imageFileName="tcvi73781640928013.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

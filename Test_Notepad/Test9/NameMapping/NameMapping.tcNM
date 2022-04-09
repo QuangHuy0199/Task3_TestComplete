@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F65082C5-4920-4047-A771-BFB3263BF670}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Notepad" Key="{2E4CB0D9-C4F9-4B3B-93C7-CF51A4C78023}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{60CDB999-FBDE-4913-870F-C69D946BF495}">
+								<Image FileName="-337666938" Left="0" Top="0" Right="747" Bottom="693" />
+								<TypeInfo Item0="{1379C4CA-33B6-4D3E-B313-DA7B6ECA264D}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TkTopLevel" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgAboutNotepad" Key="{3C6D4918-2D6A-43CF-AE48-5E1A4259023D}">
+								<Image FileName="-1389350706" Left="0" Top="0" Right="143" Bottom="149" />
+								<TypeInfo Item0="{1379C4CA-33B6-4D3E-B313-DA7B6ECA264D}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="About Notepad" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Notepad" Owner="{2E4CB0D9-C4F9-4B3B-93C7-CF51A4C78023}">
+			<Child Name="wndNotepad" Owner="{60CDB999-FBDE-4913-870F-C69D946BF495}" />
+			<Child Name="dlgAboutNotepad" Owner="{3C6D4918-2D6A-43CF-AE48-5E1A4259023D}" />
+		</Child>
+	</LogicalNodes>
+</Root>

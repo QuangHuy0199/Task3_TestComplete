@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6280034375"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="274"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="236"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.625162037"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59890627244.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="205"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="208"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The list view item ('T3', 0) was clicked with the right mouse button."/>
+			<Prp name="date" type="D" value="44660.9196716435"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMPlayerApp&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMPAppHost&quot;, &quot;WMPAppHost&quot;, 1).Window(&quot;WMP Skin Host&quot;, &quot;&quot;, 1).Window(&quot;ATL:5E00C270&quot;, &quot;LibraryContainer&quot;, 1).Window(&quot;SysListView32&quot;, &quot;PrimaryListView&quot;, 1))"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6280185069"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="274"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="236"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6252430556"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi599598472411.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="213"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="243"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The list view item ('T3', 0) was double-clicked by the left mouse button."/>
+			<Prp name="date" type="D" value="44660.9196884607"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMPlayerApp&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMPAppHost&quot;, &quot;WMPAppHost&quot;, 1).Window(&quot;WMP Skin Host&quot;, &quot;&quot;, 1).Window(&quot;ATL:5E00C270&quot;, &quot;LibraryContainer&quot;, 1).Window(&quot;SysListView32&quot;, &quot;PrimaryListView&quot;, 1))"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6279925463"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6251157407"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59856407242.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The menu item 'Open file location' was clicked."/>
+			<Prp name="date" type="D" value="44660.9196600579"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane.PopupMenu&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMPlayerApp&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMPAppHost&quot;, &quot;WMPAppHost&quot;, 1).Window(&quot;WMP Skin Host&quot;, &quot;&quot;, 1).Window(&quot;ATL:5E00C270&quot;, &quot;LibraryContainer&quot;, 1).Window(&quot;SysListView32&quot;, &quot;PrimaryListView&quot;, 1).PopupMenu)"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="datetime" type="D" value="44660.6280438542"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="datetime" type="D" value="44660.6253125"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi600220372415.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-23"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="click point x" type="I" value="-351"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The menu item 'Full screen' was clicked."/>
+			<Prp name="date" type="D" value="44660.9197116782"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler.PopupMenu&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMP Skin Host&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMP Plugin UI Host&quot;, &quot;&quot;, 1).Window(&quot;CWmpControlCntr&quot;, &quot;&quot;, 1).Window(&quot;WMP Plugin UI Host&quot;, &quot;&quot;, 1).Window(&quot;CWmpControlCntr&quot;, &quot;&quot;, 1).Window(&quot;EVRVideoHandler&quot;, &quot;EVRVideoHandler&quot;, 1).PopupMenu)"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="462"/>
+					<Prp name="datetime" type="D" value="44660.628013831"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="49"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="click point x" type="I" value="82"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.tbcProperties"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="462"/>
+					<Prp name="datetime" type="D" value="44660.6251967593"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59923907248.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="45"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="click point x" type="I" value="80"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.tbcProperties"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The tab control page 'Content' was selected with the left mouse button."/>
+			<Prp name="date" type="D" value="44660.9196813889"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.dlgProperties.tbcProperties&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;#32770&quot;, &quot;Properties&quot;, 1).Window(&quot;SysTabControl32&quot;, &quot;&quot;, 1))"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="message" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Program Files (x86)\Windows Media Player\wmplayer.exe&quot;. New instances will not be launched."/>
+			<Prp name="date" type="D" value="44660.9196498611"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="462"/>
+					<Prp name="datetime" type="D" value="44660.6280153819"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="49"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="click point x" type="I" value="161"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.tbcProperties"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="462"/>
+					<Prp name="datetime" type="D" value="44660.6252083333"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59933907249.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="38"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="51"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="click point x" type="I" value="135"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.tbcProperties"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The tab control page 'Media Usage Rights' was selected with the left mouse button."/>
+			<Prp name="date" type="D" value="44660.9196828009"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.dlgProperties.tbcProperties&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;#32770&quot;, &quot;Properties&quot;, 1).Window(&quot;SysTabControl32&quot;, &quot;&quot;, 1))"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="44660.6280012963"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndPictures"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="datetime" type="D" value="44660.625150463"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi598795354960.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndPictures"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'Pictures' window was closed."/>
+			<Prp name="date" type="D" value="44660.9196692245"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.explorer.wndPictures&#xA;(Sys.Process(&quot;explorer&quot;).Window(&quot;CabinetWClass&quot;, &quot;Pictures&quot;, 1))"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{87094722-1DF1-4B2A-A514-69C846990098}"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1366"/>
+					<Prp name="datetime" type="D" value="44660.628054213"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="31"/>
+					<Prp name="click point x" type="I" value="1340"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndFullScreenTopLayout"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1366"/>
+					<Prp name="datetime" type="D" value="44660.6253587963"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi600642172418.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="31"/>
+					<Prp name="click point x" type="I" value="1340"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndFullScreenTopLayout"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44660.9197216319"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (1340, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.wmplayer.wndFullScreenTopLayout&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;CWmpControlCntr&quot;, &quot;FullScreenTopLayout&quot;, 2))"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="datetime" type="D" value="44660.6280360532"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="111"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="click point x" type="I" value="268"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="datetime" type="D" value="44660.6252777778"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi599900072413.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="111"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="click point x" type="I" value="268"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="date" type="D" value="44660.9197037153"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (260, 80) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.wmplayer.wndWMPSkinHost2.WMPPluginUIHost.CWmpControlCntr.WMPPluginUIHost.CWmpControlCntr.EVRVideoHandler&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMP Skin Host&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMP Plugin UI Host&quot;, &quot;&quot;, 1).Window(&quot;CWmpControlCntr&quot;, &quot;&quot;, 1).Window(&quot;WMP Plugin UI Host&quot;, &quot;&quot;, 1).Window(&quot;CWmpControlCntr&quot;, &quot;&quot;, 1).Window(&quot;EVRVideoHandler&quot;, &quot;EVRVideoHandler&quot;, 1))"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6279843518"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="274"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="236"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6251041667"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59842817240.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="194"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="249"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The list view item ('T3', 0) was clicked with the right mouse button."/>
+			<Prp name="date" type="D" value="44660.919652581"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMPlayerApp&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMPAppHost&quot;, &quot;WMPAppHost&quot;, 1).Window(&quot;WMP Skin Host&quot;, &quot;&quot;, 1).Window(&quot;ATL:5E00C270&quot;, &quot;LibraryContainer&quot;, 1).Window(&quot;SysListView32&quot;, &quot;PrimaryListView&quot;, 1))"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6280114352"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1103"/>
+					<Prp name="datetime" type="D" value="44660.6251851852"/>
+					<Prp name="object left" type="I" value="153"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi59911407246.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="660"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The menu item 'Properties' was clicked."/>
+			<Prp name="date" type="D" value="44660.9196789699"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.wndWMPlayerApp.WMPAppHost.WMPSkinHost.LibraryContainer.lvDetailsPane.PopupMenu&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;WMPlayerApp&quot;, &quot;Windows Media Player&quot;, 1).Window(&quot;WMPAppHost&quot;, &quot;WMPAppHost&quot;, 1).Window(&quot;WMP Skin Host&quot;, &quot;&quot;, 1).Window(&quot;ATL:5E00C270&quot;, &quot;LibraryContainer&quot;, 1).Window(&quot;SysListView32&quot;, &quot;PrimaryListView&quot;, 1).PopupMenu)"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="300"/>
+					<Prp name="datetime" type="D" value="44660.6280169329"/>
+					<Prp name="object left" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="499"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="click point x" type="I" value="262"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.btnOK"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="300"/>
+					<Prp name="datetime" type="D" value="44660.6252314815"/>
+					<Prp name="object left" type="I" value="225"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi599481272410.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="493"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="click point x" type="I" value="256"/>
+					<Prp name="object name" type="S" value="Aliases.wmplayer.dlgProperties.btnOK"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="44660.9196841782"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.wmplayer.dlgProperties.btnOK&#xA;(Sys.Process(&quot;wmplayer&quot;).Window(&quot;#32770&quot;, &quot;Properties&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 1))"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>
