@@ -27,26 +27,32 @@ def cmdNew():     #file menu New option
     root.title("Notepad")
 
 def cmdOpen():     #file menu Open option
-    fd = filedialog.askopenfile(parent = root, mode = 'r')
-    t = fd.read()     #t is the text read through filedialog
-    notepad.delete(0.0, END)
-    notepad.insert(0.0, t)
+    fd = filedialog.askopenfilename()
+    with open(fd, 'r', encoding="utf-8") as file:
+        t = file.read()
+        notepad.delete(0.0, END)
+        notepad.insert(0.0, t)
     
 def cmdSave():     #file menu Save option
-    fd = filedialog.asksaveasfile(mode='w', filetypes = (("Text Documents(*.txt)", "*.txt"), ("All files", "*.*")))
+    fd = filedialog.asksaveasfilename(filetypes = (("Text Documents(*.txt)", "*.txt"), ("All files", "*.*")))
+    #fd = asksaveasfile(mode='w', filetypes = (("Text Documents(*.txt)", "*.txt"), ("All files", "*.*")))
     if fd!= None:
         data = notepad.get('1.0', END)
     try:
-        fd.write(data)
+        with open(fd, 'w',  encoding="utf-8") as file:
+            file.write(data)
+        #with open(fd, 'r', encoding="utf8") as file:
+         #   file.write(data)
     except:
         messagebox.showerror(title="Error", message = "Not able to save file!")
      
 def cmdSaveAs():     #file menu Save As option
     #fd = filedialog.asksaveasfile(mode='w', defaultextension = '.txt')
-    fd = filedialog.asksaveasfile(mode='w', filetypes = (("Text Documents(*.txt)", "*.txt"), ("All files", "*.*")))
+    fd = filedialog.asksaveasfilename(filetypes = (("Text Documents(*.txt)", "*.txt"), ("All files", "*.*")))
     t = notepad.get(0.0, END)     #t stands for the text gotten from notepad
     try:
-        fd.write(t.rstrip())
+        with open(fd, 'w',  encoding="utf-8") as f:
+            f.write(t.rstrip())
     except:
         messagebox.showerror(title="Error", message = "Not able to save file!")
 
